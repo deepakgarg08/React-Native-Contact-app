@@ -7,9 +7,7 @@ import constants from 'expo-constants';
 export default function App() {
   return (
     <View style={styles.container}>
-      {/* <Text>Hello mama ohh </Text> */}
       <Home/>
-      {/* <StatusBar style="auto" /> */}
     </View>
   );
 }
@@ -18,7 +16,8 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor:"#ebebeb",
-    marginTop:constants.statusBarHeight
+    marginTop:constants.statusBarHeight,
+    marginBottom: 50
     // alignItems: 'center',
     // justifyContent: 'center',
   },
